@@ -1,0 +1,14 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "Reverse proxy server for forwarding requests with auth header",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2"
+  }
+}
